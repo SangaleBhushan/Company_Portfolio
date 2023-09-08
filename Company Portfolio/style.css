@@ -1,0 +1,363 @@
+* {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f0f0f0; /* Light gray background */
+            color: #000;
+            font-size: 18px;
+        }
+
+        /* Responsive CSS using media queries */
+        @media (max-width: 576px) {
+            body {
+                font-size: 16px; /* Adjust font size for small screens */
+            }
+
+            h1 {
+                font-size: 24px; /* Adjust heading font size */
+            }
+
+            h2, h4 {
+                font-size: 20px; /* Adjust sub-heading font size */
+            }
+
+            p {
+                font-size: 18px; /* Adjust paragraph font size */
+            }
+
+            .container {
+                padding: 10px; /* Add some padding to the container for small screens */
+            }
+
+            .follower {
+                flex-direction: column; /* Stack follower info vertically */
+                text-align: center; /* Center text in follower info */
+            }
+
+            .follower-info {
+                margin: 10px; /* Adjust margin for follower info */
+            }
+
+            .number {
+                font-size: 20px; /* Adjust font size for numbers */
+            }
+
+            .info-text {
+                font-size: 16px; /* Adjust font size for info text */
+            }
+
+            .image {
+                width: 100px;
+                height: 100px;
+                margin: 5px 5px;
+            }
+
+            .heading {
+                font-size: 24px;
+            }
+
+            .team-member {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            .apply-button {
+                font-size: 20px;
+            }
+
+            .footer {
+                padding: 10px 0;
+            }
+        }
+
+#img1{
+    margin-top: 5px;
+    padding: 2px;
+
+}
+#header {
+    background-color:green;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.line{
+    background-color: black;
+    margin-top: 10px;
+    padding: 5px;
+
+}
+h1 {
+    font-size: 36px;
+    color: white;
+}
+#line,li{
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+.list{
+    margin-top: 5px;
+    padding: 5px;
+}
+
+h2,h4 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: white;
+}
+h3{
+    color: black;
+    margin-top: 5px;
+    text-align: center;
+}
+h5{
+    color: black;
+    margin-top: 15px;
+}
+p{
+    font-size: 20px;
+}
+.follower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.follower-info {
+    text-align: center;
+    margin: 20px;
+}
+
+.number {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+
+.info-text {
+    font-size: 18px;
+}
+
+#promotion{
+    color: grey;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px 0;
+}
+
+.logo {
+            display: block;
+            margin: 0 auto;
+            width: 140px; /* Adjust the width as needed */
+        }
+
+        /* Style for the information sections */
+ .info {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Style for headings */
+h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: black;
+        }
+
+        /* Style for paragraphs */
+p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+ }
+
+.image-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f0f0f0;
+            padding: 10px;
+            flex-wrap: wrap;
+        
+}
+
+        /* Style for individual images */
+.image {
+            width: 150px; /* Set the desired width */
+            height: 150px; /* Set the desired height */
+            margin: 10px 10px; /* Add space between images */
+        }
+
+
+.heading{
+    background-color:gray;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.team-members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            list-style-type: none;
+            padding: 0;
+        }
+
+.team-member {
+            display: flex;
+            width: calc(33.33% - 10px); /* 33.33% width with 10px spacing */
+            margin-bottom: 10px;
+            background-color: #fff;
+            padding: 10px;
+            border: 1px solid #ddd;
+}
+
+.team-member-name {
+            font-weight: bold;
+        }
+
+.team-member:hover{
+    background-color: green;
+}
+
+.image1{
+    width: 100%;
+    height: 100%;
+
+}
+
+        .job-listing {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        /* Style for job details */
+        .job-details {
+            flex: 1;
+        }
+
+        /* Style for job title */
+        .job-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* Style for job experience */
+        .job-experience {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        /* Style for job location and open positions */
+        .job-location {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+.apply-button {
+    background-color: yellowgreen;
+    color: forestgreen;
+    padding: 10px 15px;
+    border-width: 1px;
+    border-style: hidden;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius:10px;
+    
+    
+}
+
+.apply-button:hover {
+    background-color: #009900;
+}
+
+ 
+         .footer {
+            background-color: #333;
+            color: #ffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Style for footer links */
+        .footer a {
+            color: #ffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .copyright {
+            margin-bottom: 20px;
+            text-align: center;
+            padding: 10px 0;
+            
+        }
+
+        @media (max-width: 844px) {
+            /* Adjust font sizes, padding, and margins for smaller screens */
+            body {
+                font-size: 16px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2, h4 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+            .container {
+                padding: 10px;
+            }
+
+            .follower-info {
+                margin: 10px;
+            }
+
+            .number {
+                font-size: 24px;
+            }
+
+            .info-text {
+                font-size: 20px;
+            }
+
+            .image {
+                width: 100px;
+                height: 100px;
+                margin: 5px 5px;
+            }
+
+            .heading {
+                font-size: 30px;
+            }
+
+            .team-member {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            .apply-button {
+                font-size: 20px;
+            }
+
+            .footer {
+                padding: 10px 0;
+            }
